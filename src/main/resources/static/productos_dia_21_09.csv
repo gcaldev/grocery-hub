@@ -1,0 +1,26 @@
+id,nombre,marca,categoria,precio,peso,calorias,imagen,fecha_expiracion,origen,descripcion,unidades_por_paquete,stock
+c9e1074f5b5b3f65e1d1d9e12b5b73cb,Lentejas,Marca A,Legumbres,1.50,1kg,350,lentejas.jpg,2025-12-01,Argentina,Lentejas de alta calidad,1,100
+a1e8c6b9e3424e659a1c92efc3bbcbf4,Rice,Marca B,Granos,0.80,2kg,400,rice.jpg,2025-06-15,Estados Unidos,Rice integral,1,150
+ecf945b2b4814e0a86f80b0b2856936f,Manzana,Marca C,Fruitas,0.50,150g,52,manzana.jpg,2025-04-10,Chile,Manzanas frescas,6,200
+dc76c4b249c24bb2a5bb7b9f5eabe7bc,Leche,Marca D,Lácteos,1.00,1L,150,leche.jpg,2024-11-20,Argentina,Leche entera,1,80
+b9b2e3a0e1234a62b5b345f634bdce63,Pasta,Marca E,Pasta,1.20,500g,200,pasta.jpg,2026-01-05,Italia,Pasta de trigo,2,120
+d7c97c8c3ac84a3e96368e44fbc0089e,Huevo,Marca F,Proteínas,2.50,12 unidades,70,huevo.jpg,2025-09-30,Argentina,Huevos orgánicos,12,60
+4f70e24bda3541d3bb557b5b5d82882e,Tomate,Marca G,Vegetales,0.75,250g,25,tomate.jpg,2025-08-15,México,Tomates frescos,5,180
+ec3bbeb4ff964f2a8ab1f8925a7e7b5b,Pan,Marca H,Bakery,1.00,500g,250,pan.jpg,2025-07-01,Argentina,Pan integral,1,90
+d8c8a9c2b2f341f5bcd120a4e2396825,Azúcar,Marca I,Condimentos,0.60,1kg,400,azucar.jpg,2026-03-10,Argentina,Azúcar blanca,1,110
+8b5a58388c9a4f6d9e8e5002b5d05cb4,Café,Marca J,Bebidas,3.00,250g,150,cafe.jpg,2025-12-31,Brasil,Café molido,1,70
+b1a2465a9b5d43479d6c824ba2dc34e2,Frijoles,Marca K,Legumbres,1.40,1kg,350,frijoles.jpg,2025-10-15,Argentina,Frijoles negros,1,90
+efb247bfa3d74b2aa3485f77c2b3ae98,Jugo de Naranja,Marca L,Bebidas,2.00,1L,100,jugo_naranja.jpg,2025-05-20,Colombia,Jugo natural de naranja,1,130
+a4d4b4f90f8a4d53b5d2c9a9e9c8fbd8,Arroz Integral,Marca M,Granos,1.80,1kg,370,arroz_integral.jpg,2025-09-25,Perú,Arroz integral premium,1,75
+5eaa36207f2d4d6e97362f17b4efb8e5,Galletas,Marca N,Bakery,1.30,300g,150,galletas.jpg,2025-11-12,Argentina,Galletas de avena,1,200
+7f9b0c5e93e64c5c95b8b93d965a22c8,Quinoa,Marca O,Granos,2.20,500g,222,quinoa.jpg,2025-07-15,Bolivia,Quinoa orgánica,1,50
+e0f3b7e2ba4a4c7a9e34a3e5a3e1a72c,Sardinas,Marca P,Pescado,3.50,300g,250,sardinas.jpg,2025-08-30,España,Sardinas en aceite de oliva,1,60
+1a9e6245c50b47cf98a0e3f8e22008d7,Espinacas,Marca Q,Vegetales,1.00,200g,30,espinacas.jpg,2025-03-18,Argentina,Espinacas frescas,1,150
+a6f882f0e1a1475f8d8c64f938e3e663,Salchichas,Marca R,Proteínas,2.50,400g,300,salchichas.jpg,2025-04-15,Alemania,Salchichas de cerdo,1,80
+b7b28aaf4b4a438c8798c154e6575db5,Pimiento,Marca S,Vegetales,0.90,150g,30,pimiento.jpg,2025-06-22,México,Pimientos frescos,5,120
+f2e1321b8e0f42a689894da3be64d9d0,Atún,Marca T,Pescado,2.80,200g,250,atun.jpg,2025-11-05,Trozos de atún,1,100
+3e6ebd456579490f8b0b9af73e1e1be4,Mantequilla,Marca U,Lácteos,1.80,250g,720,mantequilla.jpg,2025-09-12,Francia,Mantequilla sin sal,1,90
+1a2b3c4d5e6f7g8h9i0j1,Fruta Fresca,Marca A,Fruitas,1.00,200g,80,fruta_fresca.jpg,2025-01-15,Chile,Fruta fresca seleccionada,5,150
+2b3c4d5e6f7g8h9i0j1k2,Ensalada de Frutas,Marca B,Fruitas,2.50,300g,120,ensalada_frutas.jpg,2025-02-20,Argentina,Deliciosa ensalada de frutas,1,100
+3c4d5e6f7g8h9i0j1k2l3,Fruta Mixta,Marca C,Fruitas,1.75,250g,90,fruta_mixta.jpg,2025-03-10,Perú,Mezcla de frutas tropicales,4,200
+4d5e6f7g8h9i0j1k2l3m4,Fruta Orgánica,Marca D,Fruitas,3.00,500g,150,fruta_organica.jpg,2025-04-25,Colombia,Frutas orgánicas sin pesticidas,2,80
