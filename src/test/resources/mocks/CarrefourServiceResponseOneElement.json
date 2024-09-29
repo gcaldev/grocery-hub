@@ -1,0 +1,15 @@
+[
+  {
+    "id": 1,
+    "nombre": "Sandia",
+    "imagen": "link_imagen/sandia.jpg",
+    "precio": 650,
+    "categoria": "Frutas",
+    "stock": 150,
+    "descripcion": "Sandia fresca",
+    "marca": "Frutale",
+    "fecha_vencimiento": "2024-10-15",
+    "calorias_por_porcion": 52,
+    "peso_neto": "1 kg"
+  }
+]

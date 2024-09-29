@@ -25,11 +25,14 @@ public class CarrefourServiceImpl implements ProductService {
     @Value("${carrefour.endpoint.search}")
     private String ENDPOINT;
 
+    private final RestTemplate restTemplate;
+
     private final CarrefourProductMapper carrefourProductMapper;
 
     @Autowired
-    public CarrefourServiceImpl(CarrefourProductMapper carrefourProductMapper) {
+    public CarrefourServiceImpl(CarrefourProductMapper carrefourProductMapper, RestTemplate restTemplate) {
         this.carrefourProductMapper = carrefourProductMapper;
+        this.restTemplate = restTemplate;
     }
 
     @Override
@@ -48,7 +51,6 @@ public class CarrefourServiceImpl implements ProductService {
             Thread.sleep(5000);
 
             String url = getUri(productName);
-            RestTemplate restTemplate = new RestTemplate();
 
             CarrefourProductDTO[] products = restTemplate
                     .getForObject(url, CarrefourProductDTO[].class);

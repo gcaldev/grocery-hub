@@ -1,0 +1,80 @@
+[
+  {
+    "id": 3,
+    "nombre": "Pan Integral",
+    "imagen": "link_imagen/pan.jpg",
+    "precio": 590,
+    "categoria": "Panadería",
+    "stock": 100,
+    "descripcion": "Pan integral fresco y saludable",
+    "marca": "PanArte",
+    "fecha_vencimiento": "2024-09-28",
+    "calorias_por_porcion": 250,
+    "peso_neto": "500 g"
+  },
+  {
+    "id": 9,
+    "nombre": "Sal",
+    "imagen": "link_imagen/sal.jpg",
+    "precio": 300,
+    "categoria": "Condimentos",
+    "stock": 300,
+    "descripcion": "Sal de mesa fina",
+    "marca": "SalMar",
+    "fecha_vencimiento": "2025-12-31",
+    "calorias_por_porcion": 0,
+    "peso_neto": "1 kg"
+  },
+  {
+    "id": 11,
+    "nombre": "Cereal",
+    "imagen": "link_imagen/cereal.jpg",
+    "precio": 900,
+    "categoria": "Desayunos",
+    "stock": 60,
+    "descripcion": "Cereal integral con frutas",
+    "marca": "CerealDelicioso",
+    "fecha_vencimiento": "2024-11-15",
+    "calorias_por_porcion": 120,
+    "peso_neto": "400 g"
+  },
+  {
+    "id": 12,
+    "nombre": "Yogur Natural",
+    "imagen": "link_imagen/yogur.jpg",
+    "precio": 800,
+    "categoria": "Lácteos",
+    "stock": 110,
+    "descripcion": "Yogur natural sin azúcares añadidos",
+    "marca": "Yogur Saludable",
+    "fecha_vencimiento": "2024-10-05",
+    "calorias_por_porcion": 59,
+    "peso_neto": "1 L"
+  },
+  {
+    "id": 15,
+    "nombre": "Galletas",
+    "imagen": "link_imagen/galletas.jpg",
+    "precio": 600,
+    "categoria": "Snacks",
+    "stock": 90,
+    "descripcion": "Galletas de avena y pasas",
+    "marca": "Galletas Caseras",
+    "fecha_vencimiento": "2024-10-20",
+    "calorias_por_porcion": 140,
+    "peso_neto": "200 g"
+  },
+  {
+    "id": 21,
+    "nombre": "Salsa de Soja",
+    "imagen": "link_imagen/salsa_soja.jpg",
+    "precio": 700,
+    "categoria": "Condimentos",
+    "stock": 120,
+    "descripcion": "Salsa de soja con bajo contenido de sodio",
+    "marca": "Sabor Oriental",
+    "fecha_vencimiento": "2025-02-01",
+    "calorias_por_porcion": 10,
+    "peso_neto": "250 ml"
+  }
+]

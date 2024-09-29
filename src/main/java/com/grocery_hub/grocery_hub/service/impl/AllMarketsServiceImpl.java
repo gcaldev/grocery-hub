@@ -36,7 +36,7 @@ public class AllMarketsServiceImpl implements ProductService {
         return productServices
                 .parallelStream()
                 .filter(x -> !x.isGivenMarket(SuperMarketEnum.ALL))
-                .map(x -> getProductsHandler(x,searchName))
+                .map(x -> getProductsHandler(x, searchName))
                 .flatMap(List::stream)
                 .toList();
     }
