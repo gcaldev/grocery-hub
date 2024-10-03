@@ -26,6 +26,3 @@ public interface CarrefourProductMapper {
         return SuperMarketEnum.CARREFOUR.toString();
     }
 }
-/*default String mapIntToString(int value) {
-        return String.valueOf(value);
-    }*/

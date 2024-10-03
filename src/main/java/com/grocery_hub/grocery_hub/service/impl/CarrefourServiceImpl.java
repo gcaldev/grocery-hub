@@ -48,7 +48,7 @@ public class CarrefourServiceImpl implements ProductService {
 
     private List<CarrefourProductDTO> fetchProducts(String productName) {
         try {
-            Thread.sleep(5000);
+            //Thread.sleep(5000);
 
             String url = getUri(productName);
 
@@ -58,8 +58,6 @@ public class CarrefourServiceImpl implements ProductService {
             return products != null ? Arrays.asList(products) : Collections.emptyList();
         } catch (HttpServerErrorException | HttpClientErrorException e) {
             throw new RuntimeException("Error fetching products from Carrefour");
-        } catch (InterruptedException e) {
-            throw new RuntimeException(e);
         }
     }
 

@@ -1,0 +1,28 @@
+[
+  {
+    "id": 16,
+    "nombre": "Frutos Secos",
+    "imagen": "link_imagen/frutos_secos.jpg",
+    "precio": 3000,
+    "categoria": "Snacks",
+    "stock": 50,
+    "descripcion": "Mezcla de frutos secos sin sal",
+    "marca": "NutriSnack",
+    "fecha_vencimiento": "2025-05-01",
+    "calorias_por_porcion": 600,
+    "peso_neto": "250 g"
+  },
+  {
+    "id": 25,
+    "nombre": "Frutas deshidratadas",
+    "imagen": "link_imagen/frutas_deshidratadas.jpg",
+    "precio": 1500,
+    "categoria": "Snacks",
+    "stock": 60,
+    "descripcion": "Mezcla de frutas deshidratadas",
+    "marca": "Fruta Seca",
+    "fecha_vencimiento": "2025-08-01",
+    "calorias_por_porcion": 250,
+    "peso_neto": "200 g"
+  }
+]

@@ -4,13 +4,15 @@ package com.grocery_hub.grocery_hub;
 import com.fasterxml.jackson.core.type.TypeReference;
 import com.fasterxml.jackson.databind.DeserializationFeature;
 import com.fasterxml.jackson.databind.ObjectMapper;
+import org.junit.Ignore;
+
 import java.io.File;
 import java.io.IOException;
 import java.net.URISyntaxException;
 import java.net.URL;
+import java.nio.file.Files;
 import java.nio.file.Paths;
 import java.util.List;
-
 
 public class TestingUtils {
     public <T> T getConfiguracionFromFile(String fileName, TypeReference<T> clazz) throws URISyntaxException, IOException {
@@ -20,5 +22,10 @@ public class TestingUtils {
         assert res != null;
         File file = Paths.get(res.toURI()).toFile();
         return objectMapper.readValue(file, clazz);
+    }
+
+    public static String getFileContent (String fileName) throws IOException {
+        List<String> allLines = Files.readAllLines(Paths.get(fileName));
+        return String.join("\n", allLines);
     }
 }

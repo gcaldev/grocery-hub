@@ -34,7 +34,6 @@ public class DiaServiceImpl  implements ProductService {
     @Override
     public List<ProductDTO> getProducts(String searchName) {
             try (Stream<String> stream = Files.lines(Paths.get(FTP_URL))) {
-                Thread.sleep(5000);
                 return stream
                         .skip(1)
                         .parallel()
@@ -43,7 +42,7 @@ public class DiaServiceImpl  implements ProductService {
                         .filter(x -> x.getName().toLowerCase().contains(searchName.toLowerCase()))
                         .toList();
             } catch (Exception e) {
-                e.printStackTrace(); // Handle the exception
+                e.printStackTrace();
             }
         return null;
     }

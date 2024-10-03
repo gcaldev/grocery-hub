@@ -78,15 +78,6 @@ public class LaAnonimaServiceImpl implements ProductService {
                 .filter(x -> x.contains("dataLayer.push"))
                 .findFirst()
                 .orElseThrow(() -> new RuntimeException("No dataLayer found."));
-        /*Element dataLayerScript = null;
-
-        for (Element scriptTag : scriptTags) {
-            if (scriptTag.data().contains("dataLayer.push")) {
-                dataLayerScript = scriptTag;
-                break;
-            }
-        }
-        return dataLayerScript;*/
     }
 
     private DataLayerDTO parseDataLayer(String dataLayerScript) {
@@ -125,16 +116,14 @@ public class LaAnonimaServiceImpl implements ProductService {
     }
     private Document connectToLaAnonima(String searchName) {
         try{
-            Thread.sleep(5000);
-
+            System.out.println("Searching: " + searchName);
             String url = getUri(searchName);
+            System.out.println("URL: " + url);
             return Jsoup.connect(url)
                     .followRedirects(true)
                     .get();
         } catch(IOException e) {
             throw new RuntimeException("Error connecting to La Anonima.");
-        } catch (InterruptedException e) {
-            throw new RuntimeException(e);
         }
     }
 

@@ -1,0 +1,20 @@
+[
+  {
+    "id": "16",
+    "name": "Frutos Secos",
+    "category": "Snacks",
+    "price": 3000.0,
+    "stock": 50,
+    "imageUrl": "link_imagen/frutos_secos.jpg",
+    "provider": "CARREFOUR"
+  },
+  {
+    "id": "25",
+    "name": "Frutas deshidratadas",
+    "category": "Snacks",
+    "price": 1500.0,
+    "stock": 60,
+    "imageUrl": "link_imagen/frutas_deshidratadas.jpg",
+    "provider": "CARREFOUR"
+  }
+]
